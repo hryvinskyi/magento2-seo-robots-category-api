@@ -1,18 +1,23 @@
 {
     "name": "hryvinskyi/magento2-seo-robots-category-api",
-    "description": "SEO Robots Category API for Magento 2",
+    "version": "2.0.0",
+    "description": "API interfaces for SEO Robots Category module with flexible directive management",
     "type": "magento2-module",
-    "license": "proprietary",
+    "require": {
+        "magento/framework": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
     "authors": [
         {
             "name": "Volodymyr Hryvinskyi",
             "email": "volodymyr@hryvinskyi.com"
         }
     ],
-    "require": {
-        "php": "^7.4|^8.0|^8.1|^8.2",
-        "magento/framework": "^102.0|^103.0"
-    },
+    "license": [
+        "MIT"
+    ],
     "autoload": {
         "files": [
             "registration.php"
